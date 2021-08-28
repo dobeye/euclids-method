@@ -51,7 +51,7 @@ public class EuclidsAlgorithm {
 
     public static String toString (int[] intArr) {
         if (intArr == null)
-            return "null";
+            return "";
 
         return String.format("%d * %d - %d * %d = 1", intArr[0], intArr[1], intArr[2], intArr[3]);
     }
